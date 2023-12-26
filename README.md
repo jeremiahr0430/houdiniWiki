@@ -5,20 +5,21 @@ Notes
 
 **Work Item Expand:**
 
-expand current work items.
-for example. you have 5 work items for opengl rop, and for each of them, there are 10 frames to render.
-expand, and you'll get 50 work items.
+Expand current work items.
+e.g. you have 5 work items for an opengl rop, and 10 frames for each of them.
+Expand, and you'll get 50 work items.
 
 **Attribute from String:**
 
-This helps you parse a string and you'll get a 'split*' attrib
+It parses a string, and returns a 'split[]' attrib
 
 **Attrib Rename:**
 
-rename and preserve an attrib *e.g. the above 'split' attrib
+rename and preserve an attrib. 
+e.g. for the above 'split' attrib
 
 **ImageMagick and ffmpeg:**
 
-Download them from offitial website or github 
-Install ImageMagick, and you'll get system path set automatically, and houdini can find it without opening another session.
-ffmpeg comes as a file structure. find the exe file in bin dir and copy paste it to FFmpeg Binary Path parameter at the bottom of this top
+Download them from offitial websites
+Install ImageMagick, and it sets **system path** automatically. Houdini can find it live.
+ffmpeg comes as a file structure. Find the exe in dir "bin", and copy paste the path to **FFmpeg Binary Path** parameter at the bottom of the parameter panel.
